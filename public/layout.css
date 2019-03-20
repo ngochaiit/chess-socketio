@@ -1,0 +1,138 @@
+body {
+    background-image: url("http://design-prod-watchae.s3.amazonaws.com/editorial/prototypes/2017/templars/the-book/images/e3/Bernard_Clairvaux_Second_Crusade_GettyImages-587491286.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+
+}
+.wrapper {
+    position: absolute;
+    width: 100vw;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+   
+}
+.chatForm {
+    display: flex;
+    flex-flow: row wrap ;
+    background-color: rgb(15, 102, 61);
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.loginForm {
+    padding-bottom: 10px;
+    background: white;
+    margin: auto 0;
+    max-width: 500px;
+}
+#container {
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+    background-image: url("https://i.pinimg.com/originals/ca/c9/83/cac983fac271957b0aa2d78d9019f5ba.jpg");
+    border : 1px solid black; 
+    height: 640px;
+     width: 640px;
+  }
+#txtUsername {
+    background-color: #eee ;
+    border: solid 1px black;
+}
+#left,#right {
+    min-height: 300px;
+}
+#left {
+    min-width: 200px;
+    margin-right: 0.5em;
+    background-color: white;
+}
+#middle {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0.5em;
+    
+}
+#right {
+    
+    
+    background-color: rgb(163, 119, 94);
+}
+#boxTittle {
+    border: solid 1px black;
+    padding: 5px;
+    text-align: center;
+}
+#boxContent {
+    border: solid 2px black;
+    border-radius: 5px;
+    overflow: scroll;
+    padding: 5px;
+    text-align: center;
+    min-height: 400px;
+}
+#sayHi {
+    text-align: right;
+}
+#listMessage {
+    height: 200px;
+    background-color: azure;
+    margin-bottom: 15px;
+    overflow: scroll;
+}
+#txtMessage {
+    background-color: #fffc42;
+    width: 200px;
+}
+
+.bacham {
+    
+    height: 50px;
+    text-align: center;
+    width: 150px;
+
+}
+
+.bacham span:nth-child(1) {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #1d9ce5;
+    margin: 5px;
+    animation: nay 400ms linear 0ms infinite forwards ;
+    animation-direction: alternate;
+}
+.bacham span:nth-child(2) {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #e57e1d;
+    margin: 5px;
+    animation: nay 400ms linear 75ms infinite forwards ;
+    animation-direction: alternate;
+}
+.bacham span:nth-child(3) {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #9c22cc;
+    margin: 5px;
+    animation: nay 800ms linear 150ms infinite forwards ;
+    animation-direction: alternate;
+}
+@keyframes nay {
+    0% {
+        transform:  translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
